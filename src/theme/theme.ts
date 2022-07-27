@@ -17,18 +17,21 @@ declare module "@mui/material/styles" {
 const theme = createTheme({
   palette: {
     primary: {
-      main: "#1976d2",
+      main: "#ff5a5a",
     },
     secondary: {
-      main: "#9c27b0",
+      main: "#2d2d4d",
     },
     text: {
       primary: "rgba(0,0,0,0.87)",
       secondary: "rgba(0,0,0,0.6)",
     },
+    common: {
+      white: '#f5f7ff'
+    }
   },
   typography: {
-    fontFamily: "'Roboto', 'Helvetica', 'Arial', sans-serif",
+    fontFamily: "'Montserrat', 'Source Sans Pro', 'Helvetica', 'Arial', sans-serif",
   },
 });
 
